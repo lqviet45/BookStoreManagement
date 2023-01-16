@@ -1,0 +1,5 @@
+B00000 - ngon lua - 120.0 - 0 - P00001 - Not Available
+B00002 - mo man - 102.0 - 4 - P00003 - Available
+B00003 - ac mong - 133.0 - 30 - P00000 - Available
+B00004 - mong tuong - 120.0 - 2 - P00002 - Not Available
+B00001 - lich su - 125.0 - 12 - P00004 - Available
