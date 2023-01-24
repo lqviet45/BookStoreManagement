@@ -75,7 +75,7 @@ public class Validation {
                 return "Not Available";
             }
             //use in update book check uses is not inputted
-            if(s.isEmpty() && mode == 2) return null;
+            if(s.isEmpty() && mode == 2) return "";
             System.err.println("PLEASE INPUT ONLY Y-N!!");
             System.out.println("Enter again!!!");
         }

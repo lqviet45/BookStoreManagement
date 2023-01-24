@@ -14,8 +14,7 @@ public class menu {
     //use to print all the publisher menu choice
     private static final String[] publisherOps = {
         "Create a Publisher",
-        "Delete the Publisher",
-        
+        "Delete the Publisher",       
         "Print the Publisher list from the file",
         "Go back to Book Store Manage program menu."
     };
@@ -25,8 +24,7 @@ public class menu {
         "Create a Book",
         "Search the Book",
         "Update a Book",
-        "Delete the Book",
-        
+        "Delete the Book",       
         "Print the Books list from the file",
         "Go back to Book Store Manage program menu"
     };

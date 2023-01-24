@@ -120,7 +120,7 @@ public class BookManagement implements ManagementI{
                     }                       
                 }
                 
-                //method getStatus(1) is allow input null
+                //method getStatus(2) is allow input null
                 status = Validation.getStatus(2);
                 if(status.isEmpty()) status = listB.get(i).getStatus();
                 
