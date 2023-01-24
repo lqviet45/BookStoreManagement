@@ -35,7 +35,7 @@ public class PublisherManagement implements ManagementI{
 
     @Override
     public void delete() {
-        publisherID = Validation.getString("Enter publisher's id you want to delete: ", "Wrong id type!!", publisherID);
+        publisherID = Validation.getPublisherCode("Enter publisher's ID: ", "Please input id with format: 'Pxxxxx' and ID must exist!!", listP, 2);
         for (int i = 0; i < listP.size(); i++) {
             if (listP.get(i).getPublisherID().equals(publisherID)) {
                 listP.remove(i);
@@ -61,7 +61,6 @@ public class PublisherManagement implements ManagementI{
 
             bw.close();
             fw.close();
-//            System.out.println("SAVE SUCCESS");
         } catch (IOException e) {}
     }
 
